@@ -22,6 +22,14 @@ export default function Page() {
             </a>
             , brought to you by Vercel.
           </p>
+
+          <Link
+            href='/dashboard'
+            className='text-blue-500 underline cursor-pointer border border-red-500 p-4'
+          >
+            dashboard
+          </Link>
+
           <Link
             href='/login'
             className='flex items-center gap-5 self-start rounded-lg bg-blue-500 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base'
